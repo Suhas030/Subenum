@@ -29,7 +29,7 @@ have() { command -v "$1" >/dev/null 2>&1; }
 
 # ---------- args ----------
 DOMAIN="${1:-}"
-OUTBASE="${2:-$HOME/Hunts/recon}"
+OUTBASE="${2:-.}"
 HTTPX_THREADS="${HTTPX_THREADS:-40}"     # kept modest for low-RAM boxes
 HTTPX_RATE="${HTTPX_RATE:-150}"
 
