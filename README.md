@@ -4,7 +4,7 @@ A multi-source subdomain enumeration script that collects, dedupes, and probes s
 
 ## What it does
 
-1. **Collects** subdomains from whichever of these tools you have installed:
+1. **Collects** subdomains from whichever of these tools you have installed: 
    - [subfinder](https://github.com/projectdiscovery/subfinder)
    - [assetfinder](https://github.com/tomnomnom/assetfinder)
    - [findomain](https://github.com/Findomain/Findomain)
